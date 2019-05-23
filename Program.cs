@@ -6,7 +6,7 @@ namespace Perceptron_Dinamico
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Perceptron.Menu();
         }
     }
 }
