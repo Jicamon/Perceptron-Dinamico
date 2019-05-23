@@ -6,18 +6,14 @@ namespace Perceptron_Dinamico{
     class Neurona{  
 
         int Capa;
-        int Actual;
         Umbral umbral;
-        List<Peso> Entradas = new List<Peso>();
-        List<Peso> Salidas = new List<Peso>();
+        int Identificador;
 
-        public Neurona(Umbral umb, int capa, int actual, List<Peso> entradas, List<Peso> salidas)
+        public Neurona(int capa, int id, Umbral umb, List<Peso> entradas, List<Peso> salidas)
         {
             Capa = capa;
-            Actual = actual;
+            Identificador = id;
             umbral = umb;
-            Entradas = entradas;
-            Salidas = salidas;
         }
 
     }  
